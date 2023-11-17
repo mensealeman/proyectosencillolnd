@@ -98,7 +98,11 @@ span {
 
 .contenedor-galeria {
     width: 85%;
-    margin: auto;
+    margin-left: 2rem;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -107,38 +111,42 @@ span {
 }
 .galeria {
     width: 400px;
-    height: 400px;
-    
+    height: 300px;
 }
 .g1 {
     background: url(../img/cansado.svg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    grid-row: 1 / 2;
 }
 .g2 {
     background: url(../img/engranaje.svg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .g3 {
     background: url(../img/pcFondoAmarillo.svg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .g4 {
     background: url(../img/vistaCenital.svg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .g5 {
     background: url(../img/oficinaAzul.svg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .g6 {
     background: url(../img/ultima.svg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
