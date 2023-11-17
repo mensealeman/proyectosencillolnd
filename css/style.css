@@ -1,0 +1,147 @@
+* {
+margin: 0;
+pad: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/*------- header ----------*/
+
+header {
+    background: linear-gradient(to right, rgba(128, 0, 127, 0.50), rgba(255, 193, 203, 0.50)), url(../img/school.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 350px;
+
+}
+header nav {
+    padding: 10px;
+}
+header nav a {
+    padding: 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+header h1 {
+    margin-top: 80px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+header h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+
+/* ------ main -----------*/
+
+main {
+    margin: auto;
+    text-align: center;
+
+    
+}
+main h2 {
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.img-p {
+    margin: 0 5rem 0 5rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.img-ordenador {
+    background: url(../img/main\ image.png);
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    order: 1
+}
+.articulos {
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    text-align: justify;
+}
+article {
+    padding: 10px;
+}
+span {
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(200, 66, 217);
+    padding: 1px 8px;
+    margin-right: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.5);
+}
+
+.contenedor-galeria {
+    width: 85%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+}
+.galeria {
+    width: 400px;
+    height: 400px;
+    
+}
+.g1 {
+    background: url(../img/cansado.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-row: 1 / 2;
+}
+.g2 {
+    background: url(../img/engranaje.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g3 {
+    background: url(../img/pcFondoAmarillo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g4 {
+    background: url(../img/vistaCenital.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g5 {
+    background: url(../img/oficinaAzul.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g6 {
+    background: url(../img/ultima.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+/* git remote add origin https://github.com/mensealeman/proyectosencillolnd.git */
